@@ -1,4 +1,60 @@
+from rich.text import Text
+from datetime import datetime
 import os
+
+import os
+
+import os
+
+import os
+
+import os
+
+import os
+
+import os
+
+def show_welcome_message():
+    welcome = Text()
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    if not os.path.exists('.venv'):
+        print("Creating virtual environment directory...")
+        os.makedirs('.venv', exist_ok=True)
+    welcome.append("Welcome to ", style="bold green")
+    welcome.append("Repo Clone Tool v1.0", style="bold green")
+    welcome.append("\n", style="")
+    welcome.append("Author: John Doe", style="blue")
+    welcome.append("\n", style="")
+    welcome.append("A powerful tool for cloning and managing repositories.", style="white")
+    
+print(welcome)
+
 import subprocess
 import logging
 import json
